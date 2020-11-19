@@ -1,0 +1,10 @@
+## Interface: 90002
+## Title: Pkg-GridPanels
+## Notes: A LibMayronObjects package for creating responsive, grid-like UI panels
+## Version: 1.0
+## Dependencies: LibMayronObjects
+
+Pkg-GridPanels.xml
+
+## Uncomment this for testing:
+Pkg-GridPanels.Test.lua
