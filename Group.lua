@@ -1,9 +1,8 @@
 -- luacheck: ignore self
 
----@type LibMayronObjects
-local obj = _G.LibStub:GetLibrary("LibMayronObjects");
-
-if (not obj) then return; end
+---@type MayronObjects
+local obj = _G.MayronObjects:GetFramework();
+if (obj:Import("GridPanels.Main.Group", true)) then return end
 
 ---@type Package
 local GridPanels = obj:Import("GridPanels.Main");
